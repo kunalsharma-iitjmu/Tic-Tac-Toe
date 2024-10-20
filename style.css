@@ -79,7 +79,7 @@ header h1 {
     margin-top: 5rem;
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-    gap: 10px;
+    gap: 20px;
 }
 
 .boxes {
