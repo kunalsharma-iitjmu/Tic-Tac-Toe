@@ -9,8 +9,8 @@
 
 :root{
     --bgcolor: #60cfff;
-    --boxcolor: #34495e;
-    --boxborder: #2c3e50;
+    --boxcolor: #376491;
+    --boxborder: #000000;
     --textcolor: #ffffff;
     --headercolor: #000000;
 }
@@ -77,15 +77,14 @@ header h1 {
     height: 600px;
     margin: 0 auto;
     margin-top: 5rem;
-    border: 6px solid #2c3e50;
-    border-radius: 10px;
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap: 10px;
 }
 
 .boxes {
-    border: 6px solid #2c3e50;
-    border-radius: 2px;
+    border: 6px solid #070809;
+    border-radius: 50%;
     font-family: Helvetica;
     font-weight: bold;
     font-size: 4em;
