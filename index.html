@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Tic Tac Toe
+        </h1>
+        <div class="controls">
+            <button class="control-button" id="reset" onclick="location.reload()">
+                Reset
+            </button>
+            <a href="exit.html">
+                <button class="control-button">
+                    Exit &nbsp; &nbsp; <img src="assets/exit.svg" alt="exit">
+                </button>
+            </a>
+        </div>
+    </header>
+
+    <div class="winner hide">
+        <h1>Congratulations!!</h1>
+        <h1 id="msg">Winner</h1>
+        <button id="newgame" onclick="location.reload()">
+            New Game
+        </button>
+    </div>
+
+    <div class="container">
+        <button class="boxes"></button>
+        <button class="boxes"></button>
+        <button class="boxes"></button>
+        <button class="boxes"></button>
+        <button class="boxes"></button>
+        <button class="boxes"></button>
+        <button class="boxes"></button>
+        <button class="boxes"></button>
+        <button class="boxes"></button>
+    </div>
+
+    <div class="x">
+        <div class="copy">
+            <h1>&copy; Kunal Sharma 2024. All Rights Reserved.</h1>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
