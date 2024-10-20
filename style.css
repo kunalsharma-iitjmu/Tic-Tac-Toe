@@ -137,22 +137,36 @@ header h1 {
 }
 
 @media only screen and (max-width: 800px) {
-    .page{
-        scale: 0.7;
+    .container{
+        width: 400px;
+        height: 400px;
+    }
+    header {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    header h1{
+        font-size: 3rem;
+    }
+    .winner h1{
+        font-size: 3rem;
     }
 }
 
 @media only screen and (max-width: 550px){
     .controls{
-        scale: 0.7;
-        margin: 0;
+        width: 300px;
+        height: 300px;
+    }
+    .control-button{
+        width: 150px;
     }
     header h1{
-        scale: 0.7;
-        padding: 0;
+        font-size: 3rem;
     }
-    .page{
-        scale: 0.7;
+    .winner h1{
+        font-size: 3rem;
     }
 }
 
@@ -161,9 +175,24 @@ header h1 {
         font-size: 2.5rem;
     }
     .controls{
-        scale: 0.7;
+        width: 350px;
     }
-    .page{
-        scale: 0.5;
+    .winner h1{
+        font-size: 3rem;
     }
 }
+
+@media only screen and (max-width: 480px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        width: 320px;
+        height: 320px;
+    }
+    .winner h1{
+        scale: 0.7;
+    }
+}
+
