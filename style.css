@@ -36,6 +36,12 @@ header h1 {
     font-size: 4rem;
 }
 
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .controls {
     display: flex;
     justify-content: center;
@@ -70,7 +76,7 @@ header h1 {
     width: 600px;
     height: 600px;
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 5rem;
     border: 6px solid #2c3e50;
     border-radius: 10px;
     display: grid;
@@ -88,24 +94,6 @@ header h1 {
     align-items: center;
     background-color: var(--boxcolor);
     color: var(--textcolor);
-}
-
-.x{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.copy{
-    position: absolute;
-    bottom: 0;
-    margin-top: 2rem;
-}
-
-.copy h1{
-    text-align: center;
-    font-size: 1rem;
-    padding: 1rem;
 }
 
 .winner{
@@ -146,4 +134,36 @@ header h1 {
 
 .hide{
     display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .page{
+        scale: 0.7;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .controls{
+        scale: 0.7;
+        margin: 0;
+    }
+    header h1{
+        scale: 0.7;
+        padding: 0;
+    }
+    .page{
+        scale: 0.7;
+    }
+}
+
+@media only screen and (max-width: 545px){
+    header h1{
+        font-size: 2.5rem;
+    }
+    .controls{
+        scale: 0.7;
+    }
+    .page{
+        scale: 0.5;
+    }
 }

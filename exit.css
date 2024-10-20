@@ -89,3 +89,9 @@ footer {
     color: #34495e;
     margin: 0 10px;
 }
+
+@media only screen and (max-width: 680px){
+    .container{
+        scale: 0.7;
+    }
+}
