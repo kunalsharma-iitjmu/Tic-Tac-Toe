@@ -44,7 +44,7 @@ box.forEach((bx) => {
 });
 
 const gameDraw = () => {
-    msg.innerText = `Game was a Draw.`;
+    msg.innerText = `It's a Draw.`;
     msgContainer.classList.remove("hide");
     cont.classList.add("hide");
     congo.classList.add("hide");

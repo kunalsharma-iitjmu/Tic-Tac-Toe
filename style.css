@@ -192,6 +192,9 @@ header h1 {
         height: 320px;
     }
     .winner h1{
-        scale: 0.5;
+        scale: 0.7;
+    }
+    #msg{
+        scale: 0.7;
     }
 }
