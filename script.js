@@ -8,6 +8,7 @@ let congo = document.querySelector("#congo");
 let turn0 = true;   //To Identify player O or player X
 let winner = false;
 let count = 0;
+let audio = new Audio('audio.mp3');
 
 const wincases = [
     [0, 1, 2],
@@ -42,6 +43,12 @@ box.forEach((bx) => {
         }
     });
 });
+
+box.forEach((bx) => {
+    bx.addEventListener("click" , () => {
+        audio.play();
+    });
+})
 
 const gameDraw = () => {
     msg.innerText = `It's a Draw.`;
