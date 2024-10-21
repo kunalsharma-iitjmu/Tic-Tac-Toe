@@ -11,6 +11,11 @@ body {
     color: #f4f4f9;
     height: 100vh;
     text-align: center;
+    height: 100vh;
+}
+
+html::-webkit-scrollbar{
+    display: none;
 }
 
 :root {
@@ -24,11 +29,11 @@ a {
 
 /* Cool Heading */
 h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     font-family: -apple-system , sans-serif;
     font-weight: 600;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #ffffff;
 }
 
