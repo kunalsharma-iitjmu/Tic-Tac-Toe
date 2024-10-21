@@ -9,6 +9,7 @@ let turn0 = true;   //To Identify player O or player X
 let winner = false;
 let count = 0;
 let audio = new Audio('audio.mp3');
+let celeb = new Audio('celeb.mp3');
 
 const wincases = [
     [0, 1, 2],
@@ -68,6 +69,7 @@ const showWinner = (win) => {
     msg.innerText = `Winner is ${win}`;
     msgContainer.classList.remove("hide");
     cont.classList.add("hide");
+    celeb.play();
     disableBoxes();
 }
 
