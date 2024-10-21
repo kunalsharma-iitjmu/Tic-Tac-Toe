@@ -119,11 +119,18 @@ h1 {
     .container {
         scale: 0.7;
     }
+
+    .winner{
+        scale: 0.7;
+    }
 }
 
 @media (max-width: 490px) {
     .control-button {
         width: 150px;
+    }
+    .winner{
+        scale: 0.6;
     }
 }
 
