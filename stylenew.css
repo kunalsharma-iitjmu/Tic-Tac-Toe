@@ -4,7 +4,8 @@
 /* Body Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, black, grey);;
+    background: linear-gradient(135deg, black, grey);
+    ;
     border: none;
     margin: 0;
     padding: 0;
@@ -14,7 +15,7 @@ body {
     overflow: hidden;
 }
 
-html::-webkit-scrollbar{
+html::-webkit-scrollbar {
     display: none;
 }
 
@@ -30,7 +31,7 @@ a {
 /* Cool Heading */
 h1 {
     font-size: 4rem;
-    font-family: -apple-system , sans-serif;
+    font-family: -apple-system, sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -66,7 +67,7 @@ h1 {
     transform: translateY(-2px);
 }
 
-.control-button:active{
+.control-button:active {
     transform: translateY(2px);
 }
 
@@ -128,7 +129,7 @@ h1 {
         scale: 0.7;
     }
 
-    .winner{
+    .winner {
         scale: 0.7;
     }
 }
@@ -137,7 +138,8 @@ h1 {
     .control-button {
         width: 150px;
     }
-    .winner{
+
+    .winner {
         scale: 0.6;
     }
 }
