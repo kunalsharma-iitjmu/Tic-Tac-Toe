@@ -11,7 +11,7 @@ body {
     color: #f4f4f9;
     height: 100vh;
     text-align: center;
-    height: 100vh;
+    overflow: hidden;
 }
 
 html::-webkit-scrollbar{
@@ -144,4 +144,24 @@ h1 {
 
 .hide {
     display: none;
+}
+
+.foot {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.foot_text {
+    font-size: 1rem;
+    right: 0;
+}
+
+.foot_link {
+    color: aqua;
+}
+
+.foot_link:hover {
+    text-decoration: underline;
 }
